@@ -18,7 +18,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { FormControl } from "../ui/form";
+import { FormControl } from "@/components/ui/form";
 
 const frameworks = [
   {

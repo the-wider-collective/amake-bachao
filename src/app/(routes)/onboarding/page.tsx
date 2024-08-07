@@ -24,7 +24,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Combobox from "@/components/common/ComboBox";
+import Combobox from "@/components/common/Combobox";
 
 type Props = {};
 
