@@ -24,6 +24,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Combobox from "@/components/common/ComboBox";
 
 type Props = {};
 
@@ -64,9 +65,7 @@ const Onboarding = (props: Props) => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Select area of residence</FormLabel>
-                  <FormControl>
-                    <Input placeholder="shadcn" {...field} />
-                  </FormControl>
+                  <Combobox />
                   <FormDescription></FormDescription>
                   <FormMessage />
                 </FormItem>
